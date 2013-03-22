@@ -1,0 +1,6 @@
+#Define o tipo de erro e aponta o arquivo caso ele ocorra
+ErrorDocument 400 /erro400.php
+ErrorDocument 401 /erro401.php
+ErrorDocument 403 /erro403.php
+ErrorDocument 404 /404.php
+ErrorDocument 500 /erro500.php 

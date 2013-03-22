@@ -1,0 +1,80 @@
+body{background:#da0863;font-family:Verdana, Geneva, sans-serif;}
+
+#Header{width:921px;margin:0 auto;text-align: center;overflow:hidden;height: 95px;}
+#Content{width:921px;margin:0 auto;clear:both;overflow:hidden;}
+#Footer{width:921px;height:93px;margin:0 auto;border-top:1px solid #f09cc1;margin-top:20px;}
+
+/*header*/
+.Logo{margin:0 auto;width: 406px;}
+.Socialnetwork{float: right;position: relative;top: -60px;}
+.Socialnetwork li{display:inline}
+
+/* forms*/
+input{width:380px;border:0;margin-bottom:10px;background:url(../images/img-input.png) no-repeat;color:#da0863;height:27px;padding-left: 5px;}
+.Inputenviar{width:76px;background:url(../images/img-botao-enviar.png) no-repeat;border:0;cursor:pointer;height:27px;float:right;}
+h2{color: #FFFFFF;font-family: georgia;font-size: 22px;padding-left: 27px;}
+p{color: #FFFFFF;font-size: 12px;padding-left: 27px;}
+.Titlecolunm {height:57px;}
+/*Column*/
+.Column{width:430px;float:left;overflow:hidden}
+.Column .Titlecolunm {background:url(../images/background-colunm1.png) no-repeat;}
+.Column .Inputenviar {margin-right:50px;}
+.Column .Socialnetwork {clear: both;float: right;margin: 85px 49px 0 0;overflow-x: hidden;overflow-y: hidden;position: inherit;}
+.Column .Socialnetwork h2 {float: left;margin-right: 10px;overflow-x: hidden;overflow-y: hidden;}
+.Column .Socialnetwork ul {display:inline-block;}
+
+/*Column2*/
+.Column2 input {width:232px;}
+.Column2{width:489px;overflow:hidden}
+.Column2 h2,.Column2 p{padding:0}
+.Column2 p{padding-top: 7px;}
+.Column2 .Titlecolunm {background:url(../images/background-colunm2.png) 170px 0 no-repeat;}
+.styled-select select {background:transparent;*background-color:none;width: 115px;padding:1px 5px 5px;font-size: 16px;line-height: 1;border: 0;border-radius: 5px;height: 24px;-webkit-appearance: none;color:#da0863;cursor:pointer;}
+.styled-select {width: 85px;height: 27px;overflow: hidden;background: url("../images/img-select.png") no-repeat right #ddd;float:left;margin-right:17px;}
+.styled-select select option{color:#da0863}
+.Column2 select option{background:#f8cee0;}
+.Inputtextarea{border:0;background:url(../images/img-textarea.png) no-repeat;width:473px;height:131px;margin-bottom: 12px;padding-top: 6px;padding-left: 8px;color: #DA0863;font-family:Verdana, Geneva, sans-serif;font-size: 12px;}
+.Column2 .Inputenviar {margin-right:8px;width: 76px;}
+.Column2 .Inputcidade {width: 376px;}
+/* banner */
+/* General */
+.Banner{overflow: hidden;width: 921px;height:665px;margin: -7px auto;padding: 32px 16px 64px;}
+.navigation-controls {position: relative;text-align: center;padding: 5px;z-index: 1001;top: -266px;width: 753px;margin-left: 77px;}
+/* Picture slides */
+.picture-slides-disabled {color: #eee;}
+.picture-slides-container {margin-bottom: 2em;}
+.picture-slides-dimmed-background .navigation-controls {}
+.picture-slides-dimmed-background .picture-slides-image-text {}
+.picture-slides-fade-container {	position: relative;	overflow: hidden;	z-index: 1000;}
+.picture-slides-fade-container a {display: block;height: 473px;	text-align: center;	margin-bottom: 10px;}
+.picture-slides-fade-container a img {-moz-box-shadow: 5px 5px 10px #000;}
+.picture-slides-image-load-fail {display: none;}
+.picture-slides-image-text {	position: relative;	background: #fff;text-align: center;padding: 5px 0 10px;z-index: 1001;}
+.picture-slides-previous-image{	float: left;}
+.picture-slides-next-image {	float: right;}
+.picture-slides-previous-image, 
+.picture-slides-next-image, 
+.picture-slides-start-slideshow, 
+.picture-slides-stop-slideshow {	display: none;}
+.picture-slides-previous-image, 
+.picture-slides-next-image, 
+.picture-slides-start-slideshow, 
+.picture-slides-stop-slideshow {	cursor: pointer;}
+.picture-slides-thumbnails {	list-style: none;margin-top: 1em;overflow: hidden; width: 921px;}
+.picture-slides-thumbnails li {float: left;width: 217px;height: 168px;margin: 0 10px 5px 0;}
+.picture-slides-thumbnails li img {width: 223px;}
+.picture-slides-thumbnails a {outline: none;}
+.picture-slides-thumbnails li .picture-slides-selected-thumbnail span {width: 215px;height: 176px;padding: 1px 11px 2px 2px;background: url("../images/hover-img.png") no-repeat;display: block;position:absolute}
+.picture-slides-thumbnails li .picture-slides-selected-thumbnail img {   width: 224px;    z-index: 1;}
+.picture-slides-dim-overlay {position: absolute;left: 0;top: 0;width: 100%;height: 100%;background: #000;opacity: 0.8;
+	/* For IE 5-7 */
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+	/* For IE 8 (and 9, 10, 11?). Don't miss the added quotes */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";z-index: 1000;display: none;
+}
+	
+/** Footer ***/
+	
+#Footer .Socialnetwork{top:0;}
+#Footer img{margin-top:38px;}
+.logodizain{float:right;}

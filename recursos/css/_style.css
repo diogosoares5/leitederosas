@@ -24,11 +24,10 @@ p{color: #FFFFFF;font-size: 12px;padding-left: 27px;}
 .Column .Socialnetwork ul {display:inline-block;}
 
 /*Column2*/
-.Column2 input {width:232px;}
+.Column2 input {width:216px;}
 .Column2{width:489px;overflow:hidden}
 .Column2 h2,.Column2 p{padding:0}
-.Column2 p{padding-top: 7px;}
-.Column2 .Titlecolunm {background:url(../images/background-colunm2.png) 170px 0 no-repeat;}
+.Column2 .Titlecolunm {background:url(../images/background-colunm2.png) 174px 0 no-repeat;}
 .styled-select select {background:transparent;*background-color:none;width: 115px;padding:1px 5px 5px;font-size: 16px;line-height: 1;border: 0;border-radius: 5px;height: 24px;-webkit-appearance: none;color:#da0863;cursor:pointer;}
 .styled-select {width: 85px;height: 27px;overflow: hidden;background: url("../images/img-select.png") no-repeat right #ddd;float:left;margin-right:17px;}
 .styled-select select option{color:#da0863}
